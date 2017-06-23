@@ -51,8 +51,8 @@ and the source code in Github
         }
         ```
   5. Then in your controllers folder create `Report.php` and call your library `$this->load->library('pdfgenerator')`. To generate it call `$this->pdfgenerator->generate(params)`.
-    The full code you can see in this link.
-  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview.
+    The full code you can see in this [link](https://github.com/satyakresna/ci-dompdf6/blob/master/application/controllers/Report.php).
+  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview. The full code you can see in this [link](https://github.com/satyakresna/ci-dompdf6/blob/master/application/views/table_report.php).
   7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url) for load the image to report preview. So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
 
 
@@ -98,8 +98,8 @@ and the source code in Github
         }
         ```
   5. Then in your controllers folder create `Report.php` and call your library `$this->load->library('pdfgenerator')`. To generate it call `$this->pdfgenerator->generate(params)`.
-    The full code you can see in this link.
-  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview.
+    The full code you can see in this [link](https://github.com/satyakresna/ci-dompdf8/blob/master/application/controllers/Report.php).
+  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview. The full code you can see in this [link](https://github.com/satyakresna/ci-dompdf8/blob/master/application/views/table_report.php).
   7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url) for load the image to report preview. So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
 
 ### References
