@@ -20,7 +20,6 @@ and the source code in Github
   3. Go to **composer.json** in the root project and attach:
         ```
         {
-        	"name" : "dompdf/codeigniter",
           "require": {
             "dompdf/dompdf" : "0.6.*"
           }
@@ -53,8 +52,8 @@ and the source code in Github
         ```
   5. Then in your controllers folder create `Report.php` and call your library `$this->load->library('pdfgenerator')`. To generate it call `$this->pdfgenerator->generate(params)`.
     The full code you can see in this link.
-  6. In step number 5 the controllers call the view `table_report.php` and it will generate to the report preview.
-  7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url). So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
+  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview.
+  7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url) for load the image to report preview. So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
 
 
 ## Dompdf 0.8.x - CodeIgniter 3
@@ -100,5 +99,9 @@ and the source code in Github
         ```
   5. Then in your controllers folder create `Report.php` and call your library `$this->load->library('pdfgenerator')`. To generate it call `$this->pdfgenerator->generate(params)`.
     The full code you can see in this link.
-  6. In step number 5 the controllers call the view `table_report.php` and it will generate to the report preview.
-  7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url). So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
+  6. In step number 5 the `Report controller` call the view `table_report.php` and it will generate to the report preview.
+  7. **IMAGE ISSUES**. Since dompdf 0.6.x, I cannot call assets like image with `<?php echo base_url(); ?>` (Codeigniter helper url) for load the image to report preview. So, to do that, I do `<?php echo $_SERVER['DOCUMENT_ROOT']."/yourasetsfolder/blabla.jpg or png"` and it works.
+
+### References
+  1. [DomPDF: Image not readable or empty](https://stackoverflow.com/questions/25558449/dompdf-image-not-readable-or-empty)
+  2. [Cetak PDF dari HTML pada Codeigniter 3.0](https://agung-setiawan.com/cetak-pdf-dari-html-pada-codeigniter-3-0/)
