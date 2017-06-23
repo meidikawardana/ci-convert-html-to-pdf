@@ -26,7 +26,7 @@ and the source code in Github
           }
         }
         ```
-    To download dompdf package. Then run `composer update`. Wait a few second and your package is ready.
+        To download dompdf package. Then run `composer update`. Wait a few second and your package is ready.
   4. Create library with the name `Pdfgenerator.php` (you can name it free) and the code contains below:
         ```
         <?php
