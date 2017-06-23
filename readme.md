@@ -15,7 +15,7 @@ and the source code in Github
 [ci-dompdf6](https://github.com/satyakresna/ci-dompdf6).
 
 **Setup**
-  1. Read my CodeIgniter-Config in Github: [ci-config](https://github.com/satyakresna/ci-config).
+  1. Read my CodeIgniter-Config in Github: [ci-config](https://github.com/satyakresna/catatan-penjelajahtekno/blob/master/codeigniter-config.md).
   2. Change the value of `$config['composer_autoload']` from `$config['composer_autoload'] = FALSE;` to `$config['composer_autoload'] = "./vendor/autoload.php";`
   3. Go to **composer.json** in the root project and attach:
         ```
@@ -62,7 +62,7 @@ and the source code in Github
 [ci-dompdf8](https://github.com/satyakresna/ci-dompdf8).
 
 **Setup**
-  1. Read my CodeIgniter-Config in Github: [ci-config](https://github.com/satyakresna/ci-config).
+  1. Read my CodeIgniter-Config in Github: [ci-config](https://github.com/satyakresna/catatan-penjelajahtekno/blob/master/codeigniter-config.md).
   2. Change the value of `$config['composer_autoload']` from `$config['composer_autoload'] = FALSE;` to `$config['composer_autoload'] = "./vendor/autoload.php";`
   3. Go to **composer.json** in the root project and attach:
       ```
